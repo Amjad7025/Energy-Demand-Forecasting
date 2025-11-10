@@ -8,7 +8,7 @@ This project analyzes and predicts energy consumption using machine learning tec
 
 # DATASET
 * SOURCE=https://www.kaggle.com/datasets/govindaramsriram/energy-consumption-dataset-linear-regression?select=train_energy_data.csv
-* FEATURES=Building_Type,          0
+* FEATURES=Building_Type,          
 Square_Footage         ,
 Number_of_Occupants    ,
 Appliances_Used        ,
@@ -22,7 +22,7 @@ Day_of_Week            ,
 * LANGUAGE= python
 * LIBRARIES=numpy,pandas,matplotlib,seaborn,scikit-learn
 ## PROCESS
-* Data Cleaning and Preprocessing $ Exploratory Data Analysis (EDA) , Feature Engineering , Model Training and Testing , Model Evaluation and Comparison
+* Data Cleaning and Preprocessing $ Exploratory Data Analysis (EDA) , Model Training and Testing ,LASSO regression, Model Evaluation and Comparison
 
 ## RESULT
 * The model successfully predicted energy consumption with good accuracy, showing clear patterns between usage and factors such as time, temperature, and appliance load. The predictions closely matched the actual energy values, proving that the ML model can effectively forecast future consumption and support better energy planning and optimization.
